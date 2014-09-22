@@ -1,0 +1,46 @@
+<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/friendButton"
+            android:id="@+id/friend_chooser"
+            android:padding="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="46dp"/>
+
+    <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/chosenContactImage"
+            android:layout_below="@+id/friend_chooser"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text=""
+            android:id="@+id/chosenContactName"
+            android:layout_below="@id/chosenContactImage"
+            android:layout_marginTop="1dp"
+            android:layout_centerHorizontal="true"
+            />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text=""
+            android:id="@+id/chosenContactNumber"
+            android:layout_below="@id/chosenContactName"
+            android:layout_marginTop="1dp"
+            android:layout_centerHorizontal="true"
+            />
+
+</RelativeLayout>

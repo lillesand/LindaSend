@@ -1,0 +1,2 @@
+include ':app', ':LindaSend'
+// include ':integration-tests'
